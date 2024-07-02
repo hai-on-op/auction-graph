@@ -4,11 +4,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: EasyAuction
-    network: avalanche
+    network: sepolia
     source:
-      address: "0xb5D00F83680ea5E078e911995c64b43Fbfd1eE61"
+      address: "0xE9056fCc1b01547114D16101A6f1c456bC2E1737"
       abi: EasyAuction
-      startBlock: 7347475
+      startBlock: 6215575
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
